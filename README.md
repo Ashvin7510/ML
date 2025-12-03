@@ -1,8 +1,5 @@
-ML – Combined Machine Learning Projects
+Machine Learning Projects
 
-This repository contains multiple Machine Learning projects combined into a single location for easy management and access.
-
-📁 Repository Structure
 ML/
  ├── T20_Score_Predictor/
  │     ├── ML.py
