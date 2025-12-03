@@ -1,12 +1,28 @@
-T20 Cricket Score Prediction (ML + Streamlit)
+ML – Combined Machine Learning Projects
 
-This project predicts the final T20 cricket score using a Machine Learning model.
-It is built with Python, Scikit-Learn, and Streamlit.
+This repository contains multiple Machine Learning projects combined into a single location for easy management and access.
+
+📁 Repository Structure
+ML/
+ ├── T20_Score_Predictor/
+ │     ├── ML.py
+ │     ├── ML_final (1).pkl
+ │     └── README_T20.md
+ │
+ ├── Notebook_Project/
+ │     └── ML_FINAL_.ipynb
+ │
+ └── README.md   <-- Main Project Documentation
+
+T20 Score Predictor (Streamlit + Machine Learning)
+
+Folder:
+
+T20_Score_Predictor
 
 
-Features
-
-Predicts final T20 score using:
+Description:
+A Streamlit application that predicts the final T20 cricket score based on:
 
 Overs played
 
@@ -18,68 +34,39 @@ Opponent strength
 
 Pitch condition
 
-Weather condition
+Weather
 
+Run the App:
 
-
-Streamlit-based user interface
-
-Trained ML model stored in a .pkl file
-
-Simple and fast prediction system
-
-
-
-Project Files
-
-ML.py – Streamlit prediction app
-
-ML_final (1).pkl – Trained model file
-
-requirements.txt – Required Python libraries
-
-
-
-Installation
-
-Clone the repository
-git clone https://github.com/Ashvin7510/Streamlit.git
-
-cd Streamlit
-
-Install dependencies
-pip install -r requirements.txt
-
-
-
-How to Run
-
-Run the Streamlit application:
+cd T20_Score_Predictor
 streamlit run ML.py
 
 
+Files Included:
 
-Input Features
+ML.py – Streamlit UI
 
-Overs Played (1–20)
+ML_final (1).pkl – Trained ML model
 
-Wickets Lost (0–10)
+README_T20.md – Extra details (optional)
 
-Current Run Rate
+ML_FINAL_.ipynb (Notebook Project)
 
-Opponent Strength (1–10)
+Folder:
 
-Pitch Condition: Batting / Balanced / Bowling
-
-Weather: Sunny / Cloudy / Overcast
-
+Notebook_Project
 
 
+Description:
+Jupyter Notebook containing model building or data science experiments.
 
-Output
+How to Use:
+Open the notebook using Jupyter, VS Code, or Google Colab.
 
-The model predicts the final score of the batting team.
+File Included:
 
+ML_FINAL_.ipynb
 
-Example:
-Predicted Score: 168 Runs
+📥 Clone the Repository
+git clone https://github.com/Ashvin7510/ML.git
+cd ML
